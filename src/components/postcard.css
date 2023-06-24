@@ -1,0 +1,15 @@
+.card{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.card Link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.user-info img{
+    width: 30px;
+}

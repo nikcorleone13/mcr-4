@@ -1,0 +1,56 @@
+.home-main-div{
+    background-color: rgb(235, 242, 249);
+    color: #3e3f49;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* links section */
+.main-div .links-section{
+    width: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.links-section .links-div{
+    height: 30%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: left;
+}
+.links-div .side-links{
+    cursor: pointer;
+}
+.links-section .profile-div{
+    height: 30%;
+}
+#home-icon{
+    color: #636de3;
+}
+.profile-div{
+    text-align: center ;
+}
+.profile-div img{
+    width: 50px;
+}
+
+/* post section */
+.main-div .post-section{
+    width:60%;
+    text-align: left;
+
+}
+
+
+/* filter section */
+.main-div .filter-section{
+    width: 15%;
+}

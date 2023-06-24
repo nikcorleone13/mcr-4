@@ -1,0 +1,8 @@
+.navbar{
+    width: 100vw;
+    text-align: left;
+    padding: .5rem 1rem;
+    color: #282abf;
+    border-bottom: 3px solid white;
+    background-color: rgb(255, 255, 255);
+}
