@@ -51,7 +51,14 @@ export const Home = () => {
         </div>
 
         <div className="filter-section">
-          <h1>links</h1>
+          <select>
+            <option value="most" onChange={() => handleSort()}>
+              Most Upvoted
+            </option>
+            <option value="least" onChange={() => handleSort()}>
+              Least Upvoted
+            </option>
+          </select>
         </div>
       </div>
     </div>
